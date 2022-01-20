@@ -30,7 +30,7 @@
           </select>
         </div>
         <div class="container" v-if="arrayDischi != null">
-            <div class="disco" v-for="(disco, index) in arrayDischi">
+            <div class="disco" v-for="(disco, index) in dischiFiltro">
                 <img :src="disco.poster" alt="immagine">
                 <h3 class="titolo">{{disco.title}}</h3>
                 <span class="autore">{{disco.author}}</span>
